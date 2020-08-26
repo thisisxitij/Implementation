@@ -1,6 +1,6 @@
 // we also have extension properties
-// extension property that will hold the last index of the list
 
+// extension property that will hold the last index of the list
 val <T> List<T>.lastIndex: Int
         get() = size -1// extension properties has no backing field so we have to define getter method
 
