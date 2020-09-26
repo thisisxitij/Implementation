@@ -12,6 +12,10 @@ fun main() {
     // or we can use Pair's to() function which is also marked as infix
     val pair: Pair<String, String> = "Fav Lang" to "Kotlin"
 
+    // or we can use use it simplify Map data structure entries
+    val map: Map<Int, String> = mapOf(1 to "Kotlin", 2 to "python", 3 to "java") // taking vararg of Pairs
+
+
     // so awesome infix ! :-)
 }
 
